@@ -1,8 +1,29 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "name": "graphql",
+      "path": "packages/graphql"
+    },
+    {
+      "name": "touch",
+      "path": "packages/touch"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+"settings": {
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/package-lock.json": true,
+		"packages": true
+	},
+	"explorerExclude.backup": null
+}
 }

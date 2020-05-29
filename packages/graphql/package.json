@@ -23,5 +23,8 @@
   },
   "homepage": "https://github.com/dalirnet/vue-mixin#readme",
   "author": "AmirRezaDalir",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-request": "^2.0.0"
+  }
 }
