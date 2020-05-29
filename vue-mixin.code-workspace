@@ -9,21 +9,32 @@
       "path": "packages/touch"
     },
     {
+      "name": "gridsome",
+      "path": "gridsome"
+    },
+    {
+      "name": "docs",
+      "path": "docs"
+    },
+    {
       "name": "root",
       "path": "."
     }
   ],
-"settings": {
-	"files.exclude": {
-		"**/.git": true,
-		"**/.svn": true,
-		"**/.hg": true,
-		"**/CVS": true,
-		"**/.DS_Store": true,
-		"**/node_modules": true,
-		"**/package-lock.json": true,
-		"packages": true
-	},
-	"explorerExclude.backup": null
-}
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+      "**/package-lock.json": true,
+      "packages": true,
+      "docs": true,
+      "gridsome": true
+    },
+    "explorerExclude.backup": null,
+    "liveServer.settings.multiRootWorkspaceName": "docs"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "vue-mixin",
+  "version": "1.0.0",
+  "description": "A collection of vue mixins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalirnet/vue-mixin.git"
+  },
+  "author": "AmirRezaDalir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dalirnet/vue-mixin/issues"
+  },
+  "homepage": "https://github.com/dalirnet/vue-mixin#readme"
+}
