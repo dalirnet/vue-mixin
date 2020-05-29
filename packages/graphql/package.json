@@ -1,0 +1,23 @@
+{
+  "name": "@vue-mixin/graphql",
+  "version": "1.0.0",
+  "description": "graphql mixin for vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalirnet/vue-mixin.git",
+    "directory": "packages/graphql"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "mixin",
+    "graphql",
+    "gql"
+  ],
+  "author": "AmirRezaDalir",
+  "license": "MIT"
+}
