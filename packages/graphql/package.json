@@ -18,6 +18,10 @@
     "graphql",
     "gql"
   ],
+  "bugs": {
+    "url": "https://github.com/dalirnet/vue-mixin/issues"
+  },
+  "homepage": "https://github.com/dalirnet/vue-mixin#readme",
   "author": "AmirRezaDalir",
   "license": "MIT"
 }
