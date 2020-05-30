@@ -10,7 +10,7 @@
         },
         {
             "name": "platform",
-            "path": "platform"
+            "path": "platform/src"
         },
         {
             "name": "docs",
@@ -32,10 +32,12 @@
             "**/package-lock.json": true,
             "packages": true,
             "docs": true,
-            "platform": true
+            "**/.temp": true,
+            "**/.cache": true
         },
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
-        }
+        },
+        "explorerExclude.backup": null
     }
 }

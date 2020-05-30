@@ -26,16 +26,11 @@
 </template>
 
 <script>
-import graphqlMixin from '@vue-mixin/graphql'
-
 export default {
     metaInfo: {
         title: 'Hello, world!'
     },
-    mixins: [graphqlMixin],
-    created() {
-        console.log(this.graphqlEndpoint)
-    }
+    created() {}
 }
 </script>
 
