@@ -1,30 +1,33 @@
 {
-  "name": "@vue-mixin/graphql",
-  "version": "1.0.0",
-  "description": "graphql mixin for vue",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dalirnet/vue-mixin.git",
-    "directory": "packages/graphql"
-  },
-  "keywords": [
-    "vue",
-    "vuejs",
-    "mixin",
-    "graphql",
-    "gql"
-  ],
-  "bugs": {
-    "url": "https://github.com/dalirnet/vue-mixin/issues"
-  },
-  "homepage": "https://github.com/dalirnet/vue-mixin#readme",
-  "author": "AmirRezaDalir",
-  "license": "MIT",
-  "dependencies": {
-    "graphql-request": "^2.0.0"
-  }
+    "name": "@vue-mixin/graphql",
+    "version": "1.0.0",
+    "description": "graphql mixin for vue",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dalirnet/vue-mixin.git",
+        "directory": "packages/graphql"
+    },
+    "keywords": [
+        "vue",
+        "vuejs",
+        "mixin",
+        "graphql",
+        "gql"
+    ],
+    "bugs": {
+        "url": "https://github.com/dalirnet/vue-mixin/issues"
+    },
+    "homepage": "https://github.com/dalirnet/vue-mixin#readme",
+    "author": "AmirRezaDalir",
+    "license": "MIT",
+    "dependencies": {
+        "graphql-request": "^2.0.0"
+    },
+    "devDependencies": {
+        "core-js": "^3.6.5"
+    }
 }

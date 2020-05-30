@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Gridsome",
-  pathPrefix: "vue-mixin",
-  outputDir: "../docs",
-  plugins: [],
-};
+    siteName: 'Vue mixin',
+    outputDir: '../docs',
+    pathPrefix: '/vue-mixin',
+    plugins: []
+}

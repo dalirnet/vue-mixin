@@ -1,0 +1,13 @@
+{
+    "name": "platform",
+    "private": true,
+    "scripts": {
+        "build": "gridsome build",
+        "develop": "gridsome develop",
+        "explore": "gridsome explore"
+    },
+    "dependencies": {
+        "@vue-mixin/graphql": "link:../packages/graphql",
+        "gridsome": "^0.7.0"
+    }
+}

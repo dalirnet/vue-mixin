@@ -1,40 +1,41 @@
 {
-  "folders": [
-    {
-      "name": "graphql",
-      "path": "packages/graphql"
-    },
-    {
-      "name": "touch",
-      "path": "packages/touch"
-    },
-    {
-      "name": "gridsome",
-      "path": "gridsome"
-    },
-    {
-      "name": "docs",
-      "path": "docs"
-    },
-    {
-      "name": "root",
-      "path": "."
+    "folders": [
+        {
+            "name": "graphql",
+            "path": "packages/graphql"
+        },
+        {
+            "name": "touch",
+            "path": "packages/touch"
+        },
+        {
+            "name": "platform",
+            "path": "platform"
+        },
+        {
+            "name": "docs",
+            "path": "docs"
+        },
+        {
+            "name": "root",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/node_modules": true,
+            "**/package-lock.json": true,
+            "packages": true,
+            "docs": true,
+            "platform": true
+        },
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
     }
-  ],
-  "settings": {
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/node_modules": true,
-      "**/package-lock.json": true,
-      "packages": true,
-      "docs": true,
-      "gridsome": true
-    },
-    "explorerExclude.backup": null,
-    "liveServer.settings.multiRootWorkspaceName": "docs"
-  }
 }
