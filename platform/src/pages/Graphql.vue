@@ -1,12 +1,7 @@
 <template>
     <Layout>
-        <h1>About us</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-            doloremque omnis animi, eligendi magni a voluptatum, vitae,
-            consequuntur rerum illum odit fugit assumenda rem dolores inventore
-            iste reprehenderit maxime! Iusto.
-        </p>
+        <h1>Graphql</h1>
+        <p>{{ siteName }}</p>
     </Layout>
 </template>
 
@@ -16,8 +11,33 @@ import graphqlMixin from '@vue-mixin/graphql'
 
 export default {
     mixins: [graphqlMixin],
+
     metaInfo: {
-        title: 'About us'
+        title: 'graphql'
+    },
+
+    data() {
+        return {
+            siteName: null
+        }
+    },
+
+    created() {
+        this.graphqlInit('http://localhost:8080/___graphql')
+            .graphqlRequest(
+                `query {
+                    metadata {
+                        siteName
+                    }
+                }`
+            )
+            .then(({ metadata }) => {
+                console.log('data', metadata)
+                this.siteName = metadata.siteName
+            })
+            .catch(error => {
+                console.log('error', error)
+            })
     }
 }
 </script>

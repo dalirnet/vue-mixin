@@ -14,20 +14,22 @@
     </div>
 </template>
 
+<script>
+import('destyle.css')
+export default {}
+</script>
+
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Jaldi');
 body {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
-        Roboto, 'Helvetica Neue', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+    font-family: 'DoJaldisis', sans-serif;
 }
 
 .layout {
     max-width: 760px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .header {
@@ -36,9 +38,5 @@ body {
     align-items: center;
     margin-bottom: 20px;
     height: 80px;
-}
-
-.nav__link {
-    margin-left: 20px;
 }
 </style>

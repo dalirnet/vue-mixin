@@ -9,14 +9,20 @@ export default {
             graphqlLoading: false,
             graphqlData: null,
             graphqlError: null,
-            graphqlClient: new GraphQLClient(this.graphqlEndpoint, {
-                headers: this.graphqlHeaders,
-            }),
+            graphqlClient: null,
         }
     },
 
     methods: {
+        graphqlInit(endpoint, header = {}) {
+            this.graphqlEndpoint = endpoint
+            this.graphqlHeaders = header
+            return this
+        },
         graphqlRequest(query, variables = {}, loadingListenner = null) {
+            this.graphqlClient = new GraphQLClient(this.graphqlEndpoint, {
+                headers: this.graphqlHeaders,
+            })
             return new Promise((resolve, reject) => {
                 this.graphqlLoading = true
                 if (typeof loadingListenner == 'function') {

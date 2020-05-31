@@ -8,8 +8,8 @@
     },
     "dependencies": {
         "@vue-mixin/graphql": "link:../packages/graphql",
-        "gridsome": "^0.7.0",
-        "normalize.css": "^8.0.1"
+        "destyle.css": "^1.0.13",
+        "gridsome": "^0.7.0"
     },
     "devDependencies": {
         "node-sass": "^4.14.1",
