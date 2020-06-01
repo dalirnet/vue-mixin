@@ -2,52 +2,56 @@
     <Layout>
         <h4>Modules</h4>
         <table>
-            <tr>
-                <th>Name</th>
-                <th style="width: 40%;">Module</th>
-                <th>Version</th>
-                <th>Doc</th>
-                <th>Test</th>
-            </tr>
-            <tr v-for="item in packages" :key="item.id">
-                <td>
-                    <span>{{ item.id }}</span>
-                    <br />
-                    <small>{{ item.description }}</small>
-                </td>
-                <td>
-                    <a :href="`https://www.npmjs.com/package/${item.name}`">
-                        {{ item.name }}
-                    </a>
-                    <br />
-                    <small>On Npm</small>
-                </td>
-                <td>
-                    <span>{{ item.version }}</span>
-                    <br />
-                    <small>Current</small>
-                </td>
-                <td>
-                    <a
-                        :href="
-                            `https://github.com/dalirnet/vue-mixin/tree/master/packages/${
-                                item.id
-                            }/README.md`
-                        "
-                    >
-                        <span>Readme</span>
-                    </a>
-                    <br />
-                    <small>On Github</small>
-                </td>
-                <td>
-                    <g-link :to="`/${item.id}`">Page</g-link>
-                    <br />
-                    <small>{{
-                        item.id == 'graphql' ? 'Local only' : 'Client Side'
-                    }}</small>
-                </td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th style="width: 40%;">Module</th>
+                    <th>Version</th>
+                    <th>Doc</th>
+                    <th>Test</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in packages" :key="item.id">
+                    <td>
+                        <span>{{ item.id }}</span>
+                        <br />
+                        <small>{{ item.description }}</small>
+                    </td>
+                    <td>
+                        <a :href="`https://www.npmjs.com/package/${item.name}`">
+                            {{ item.name }}
+                        </a>
+                        <br />
+                        <small>On Npm</small>
+                    </td>
+                    <td>
+                        <span>{{ item.version }}</span>
+                        <br />
+                        <small>Current</small>
+                    </td>
+                    <td>
+                        <a
+                            :href="
+                                `https://github.com/dalirnet/vue-mixin/tree/master/packages/${
+                                    item.id
+                                }/README.md`
+                            "
+                        >
+                            <span>Readme</span>
+                        </a>
+                        <br />
+                        <small>On Github</small>
+                    </td>
+                    <td>
+                        <g-link :to="`/${item.id}`">Page</g-link>
+                        <br />
+                        <small>{{
+                            item.id == 'graphql' ? 'Local only' : 'Client Side'
+                        }}</small>
+                    </td>
+                </tr>
+            </tbody>
         </table>
 
         <h4>License</h4>
