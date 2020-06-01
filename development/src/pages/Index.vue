@@ -10,7 +10,7 @@
                     <th>Doc</th>
                     <th>Test</th>
                 </tr>
-            </thead>
+            </thead> 
             <tbody>
                 <tr v-for="item in packages" :key="item.id">
                     <td>
