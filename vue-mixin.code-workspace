@@ -9,12 +9,8 @@
             "path": "packages/touch"
         },
         {
-            "name": "platform",
-            "path": "platform/src"
-        },
-        {
-            "name": "docs",
-            "path": "docs"
+            "name": "development",
+            "path": "development/src"
         },
         {
             "name": "root",
@@ -33,7 +29,8 @@
             "packages": true,
             "docs": true,
             "**/.temp": true,
-            "**/.cache": true
+            "**/.cache": true,
+            "development": false
         },
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
