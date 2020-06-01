@@ -13,7 +13,7 @@ export default {
     mixins: [graphqlMixin],
 
     metaInfo: {
-        title: 'graphql'
+        title: 'Graphql'
     },
 
     data() {

@@ -43,7 +43,9 @@
                 <td>
                     <g-link :to="`/${item.id}`">Page</g-link>
                     <br />
-                    <small>Local only</small>
+                    <small>{{
+                        item.id == 'graphql' ? 'Local only' : 'Client Side'
+                    }}</small>
                 </td>
             </tr>
         </table>

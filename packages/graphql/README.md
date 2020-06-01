@@ -22,6 +22,8 @@ export default {
 }
 ```
 
+---
+
 ##### Request
 
 ```javascript
@@ -68,6 +70,8 @@ export default {
     },
 }
 ```
+
+---
 
 ##### Loading
 

@@ -8,6 +8,7 @@
     },
     "dependencies": {
         "@vue-mixin/graphql": "link:../packages/graphql",
+        "@vue-mixin/touch": "link:../packages/touch",
         "gridsome": "^0.7.0"
     },
     "devDependencies": {
