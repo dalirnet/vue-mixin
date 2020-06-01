@@ -52,9 +52,9 @@
         <p>MIT License</p>
         <p><small>Copyright (c) 2020 Amir Reza Dalir</small></p>
         <div class="keywords">
-            <a v-for="(keyword, index) in keywords" :key="index" href="/">{{
+            <g-link to="/" v-for="(keyword, index) in keywords" :key="index">{{
                 keyword
-            }}</a>
+            }}</g-link>
         </div>
     </Layout>
 </template>
