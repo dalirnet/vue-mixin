@@ -1,10 +1,10 @@
 <template>
     <div class="layout">
         <header class="header">
-            <spam>
+            <span>
                 <strong><g-link to="/">VueMixin</g-link></strong>
                 <p><small>A collection of vue mixins</small></p>
-            </spam>
+            </span>
             <small>
                 <g-link to="https://github.com/dalirnet/vue-mixin"
                     >Gihtub</g-link

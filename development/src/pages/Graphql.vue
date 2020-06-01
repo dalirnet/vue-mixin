@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <h1>Graphql</h1>
-        <p>{{ siteName }}</p>
+        <p>From Gql: {{ siteName }}</p>
     </Layout>
 </template>
 
@@ -32,7 +32,6 @@ export default {
                 }`
             )
             .then(({ metadata }) => {
-                console.log('data', metadata)
                 this.siteName = metadata.siteName
             })
             .catch(error => {

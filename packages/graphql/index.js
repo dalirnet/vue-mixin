@@ -14,9 +14,9 @@ export default {
     },
 
     methods: {
-        graphqlInit(endpoint, header = {}) {
+        graphqlInit(endpoint, headers = {}) {
             this.graphqlEndpoint = endpoint
-            this.graphqlHeaders = header
+            this.graphqlHeaders = headers
             return this
         },
         graphqlRequest(query, variables = {}, loadingListenner = null) {
