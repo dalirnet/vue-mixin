@@ -1,6 +1,7 @@
 # @vue-mixin/touch
 
 Touch mixin for vue
+[Demo](https://dalirnet.github.io/vue-mixin/touch/)
 
 ---
 
