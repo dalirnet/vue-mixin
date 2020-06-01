@@ -6,5 +6,7 @@
 
 module.exports = {
     siteName: 'VueMixin',
+    outputDir: '../docs',
+    pathPrefix: '/vue-mixin',
     plugins: []
 }
